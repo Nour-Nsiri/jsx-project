@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import image from './imagefolder/imageInSrc.jpg';
+
 
 function App() {
   return (
@@ -10,11 +12,11 @@ function App() {
 
 <br></br>
 
-<img src={"/imageInSrc.jpg"}/>
+<img src={image}/>
 
 <br></br>
 
-<img src={"/imageInPublic.jpg"}/>
+<img src={image}/>
 
 
 
